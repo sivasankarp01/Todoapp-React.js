@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  align-items: center;
+  padding: 10px  30px;
 }
 
 .App-logo {
@@ -36,3 +38,49 @@
     transform: rotate(360deg);
   }
 }
+
+.plusbutton{
+  
+ 
+  padding: 10px 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+input{
+  height: 30px;
+  width: 20%;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.delete-button{  
+  padding: 10px 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+  
+}
+
+.todo-item{
+  margin: 10px auto;
+  width: 30%;
+  min-width:  fit-content;
+  padding: 10px;
+  align-items: center; 
+  border: solid black 1px;
+  border-radius: 5px;
+ 
+}
+.single-item{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px 5px;  
+  color: white;
+  background-color: #282c34;
+  margin-top: 10px;
+}
+
+

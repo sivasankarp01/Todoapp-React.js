@@ -49,8 +49,8 @@
 
 input{
   height: 30px;
-  width: 30%;
-  min-width: 80%;
+  width: 400px;
+  max-width: 80%;
   border: solid black 1px;
   border-radius: 5px;
 }
@@ -69,7 +69,7 @@ input{
   min-width:  fit-content;
   padding: 0px 10px;
   align-items: center; 
-  border: solid black 1px;
+  /* border: solid black 1px; */
   border-radius: 5px;
  
 }
